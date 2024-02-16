@@ -71,6 +71,7 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
+      - name: "wiki"
         logo: "assets/tools/sample.png"
         subtitle: "Bookmark example"
         tag: "app"
