@@ -30,11 +30,14 @@ jobs:
       run: |
         curl -L https://github.com/bastienwirtz/homer/releases/latest/download/homer.zip -o homer.zip
         unzip -n homer.zip && rm homer.zip
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: .
-
+        # Upload entire repository
+        path: '.'
+    
   # Deployment job
   deploy:
     environment:
@@ -45,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
