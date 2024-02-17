@@ -10,6 +10,10 @@ logo: "logo.png"
 header: true
 footer: false # set false if you want to hide it.
 
+defaults:
+  layout: "list"
+  colorTheme: "light"
+
 # Optional theme customization
 theme: default
 colors:
