@@ -51,13 +51,6 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
-    icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
-    icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
@@ -68,6 +61,19 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "Social"
+    icon: "fas fa-regular fa-face-meh"
+    items:
+      - name: "YouTube"
+        icon: "fas fa-brands fa-youtube"
+        url: "https://www.youtube.com/channel/UC0St6SkXApFki6dc1Q1BVKA"
+        tag: "external youtube"
+      - name: "Facebook"
+        icon: "fas fa-brands fa-facebook"
+        url: "https://www.facebook.com/europeanpirateparty/"
+      - name: "Twitter/X"
+        icon: "fas fa-brands fa-twitter"
+        url: "https://twitter.com/EuropeanPirates"
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
