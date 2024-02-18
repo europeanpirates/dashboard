@@ -99,8 +99,18 @@ services:
     icon: 
     items: 
       - name: "login"
+        icon: "fas fa-user"
         url: "#"
       - name: "nextcloud"
+        icon: "fas fa-cloud"
         url: "#"
       - name: "gitlab"
+        icon: "fas fa-brands fa-gitlab"
         url:  "#"
+  - name: "Other"
+    icon: "fas fa-earth-europe"
+    items:
+      - name: "PP-CZ jitsi"
+        icon: "fas fa-video"
+        url: "https://jitsi.pirati.cz"
+      
