@@ -114,5 +114,5 @@ services:
         icon: "fas fa-video"
         url: "https://jitsi.pirati.cz"
       - name: "Etherpad (PPI)"
-        icon: "fas fa-align-left"
+        icon: "fas fa-file-lines"
         url: "https://etherpad.pp-international.net/"
