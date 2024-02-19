@@ -110,7 +110,9 @@ services:
   - name: "Other"
     icon: "fas fa-earth-europe"
     items:
-      - name: "PP-CZ jitsi"
+      - name: "Jitsi Meet (PP-CZ)"
         icon: "fas fa-video"
         url: "https://jitsi.pirati.cz"
-      
+      - name: "Etherpad (PPI)"
+        icon: "fas fa-align-left"
+        url: "https://etherpad.pp-international.net/"
