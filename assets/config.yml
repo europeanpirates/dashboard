@@ -91,7 +91,7 @@ services:
         url: "https://mattermost.european-pirateparty.eu"
       - name: "Mailing lists"
         icon: "fas fa-envelope-open"
-        url: "https://lists.european-pirateparty.eu/sympa"
+        url: "https://lists.european-pirateparty.eu/wws"
       - name: "Discourse"
         icon: "fas fa-brands fa-discourse"
         url: "https://discourse.european-pirateparty.eu"
